@@ -1454,6 +1454,11 @@ tar@^6.1.11:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
+theme-change@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/theme-change/-/theme-change-2.1.0.tgz#ff2beb47ab8d740f6d162c8507173e510770bc9f"
+  integrity sha512-D8SZJR599b39VrWCgNTINAQYjTc7XbypoIFaDT1iwbH2IHEhTb5IqWHBwXIpJWDYFtfV7FhlHUVy0PlewPYgLQ==
+
 tiny-glob@^0.2.9:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/tiny-glob/-/tiny-glob-0.2.9.tgz#2212d441ac17928033b110f8b3640683129d31e2"
