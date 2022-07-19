@@ -1,14 +1,9 @@
 <script context="module">
 	import ProjectCard from '$lib/components/project-card.svelte';
-
 	import { client } from '$lib/graphql-client';
-	// import { gql, GraphQLClient } from 'graphql-request';
-	// import { gql } from 'graphql-request';
 	import { authorsQuery, projectsQuery } from '$lib/graphql-queries';
 
 	export const load = async () => {
-		// const client = new GraphQLClient(import.meta.env.VITE_GRAPHQL_API);
-
 		const [authorReq, projectsReq] = await Promise.all([
 			client.request(authorsQuery),
 			client.request(projectsQuery)
